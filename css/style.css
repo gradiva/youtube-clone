@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  background-color: pink;
+  flex-shrink: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  /* margin: 1em;
+  padding-right: 1em;
+  line-height: 30px; */
+}
+
+header nav li {
+  display: inline;
+  /* padding: 4px; */
+  list-style-type: none;
+  /* margin-left: 8px; */
+}
+
+main .video-container {
+  background-color: lightblue;
+  flex-shrink: 0;
+}
+
+aside {
+  background-color: lightgoldenrodyellow;
+}
