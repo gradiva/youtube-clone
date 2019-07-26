@@ -10,8 +10,10 @@ html, body {
 
 header {
   grid-area: header;
-  background-color: pink;
+  background-color: white;
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 main {
@@ -36,25 +38,59 @@ aside {
   grid-gap: 1.5em;
   /* margin: 0 1.8em 0 1.8em; */
   grid-template-columns:  1fr 1fr 1fr;
-  grid-template-rows:     0.3fr 2fr 2fr;
+  grid-template-rows:     auto;
   grid-template-areas:    "header header header"
                           "main main aside"
                           "section section aside";  
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  /* margin: 1em;
-  padding-right: 1em;
-  line-height: 30px; */
+.nav-bar-left {
+  margin: 8px 0 0 27px;
 }
 
-header nav li {
-  display: inline;
-  /* padding: 4px; */
-  list-style-type: none;
-  /* margin-left: 8px; */
+header .menu { 
+  height: 45px; 
+  margin-bottom: 0; 
+}
+
+header .logo { 
+  height: 45px; 
+  margin-left: -10px;
+}
+
+.search-container {
+  display:flex;
+  margin: 15px 0 0 0px;
+}
+
+.search {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 6px;
+  height: 30px;
+  width: 550px;
+}
+
+.search-button {
+  background: #f8f8f8;
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  height: 28px;
+  padding-left: 0 6px; 
+  width: 27px; 
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-bar-menu {
+  margin: 8px 10px 0 20px;
+  height: 50px; 
 }
 
 .video {
