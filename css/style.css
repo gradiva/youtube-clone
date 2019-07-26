@@ -29,23 +29,22 @@ header {
 
 main {
   grid-area: main;
-  /* background-color: white; */
   flex-shrink: 0;
-  /* display: flex;
-	flex-flow: column wrap;
-	align-items: center;
 	height: auto;
-	margin-top: 90px; */
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 section {
   grid-area: section;
-  /* background-color: white; */
+  margin-left: 30px;
+  margin-top: -30px;
 }
 
 aside {
+  width: 90%;
+	height: auto;
   grid-area: aside;
-  background-color: lightgoldenrodyellow;
   overflow: scroll;
 }
 
@@ -332,4 +331,51 @@ h2 {
 	font-size: 0.8em;
 	display: inline-block;
 	padding-left: 7px;
+}
+
+/********************* Aside ***************************/
+
+.categ-title {
+	font-size: 1.3em;
+	padding: 25px 0 20px 0;
+}
+
+.autoplay-btn {
+	float: right;
+  padding-top: 25px;
+}
+
+.autoplay-btn i {
+	color: #e6e6e6;
+	padding-left: 10px;
+}
+
+.vid-duration {
+	float: right;
+  color: #fff;
+  background: #000;
+  opacity: 0.7;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-size: 0.8em;
+  transform: translatey(-20px);
+  margin-right: 5px;
+}
+
+.sugg-vid-wrapper {
+	display: flex;
+}
+
+.sugg-vid {
+	width: 168px;
+}
+
+.sugg-vid-desc {
+	margin-left: 10px;
+}
+
+.sugg-vid-title {
+	margin-bottom: 5px;
+	line-height: 1.1em;
+	font-size: 1.1em;
 }
