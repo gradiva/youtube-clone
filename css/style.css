@@ -379,3 +379,39 @@ h2 {
 	line-height: 1.1em;
 	font-size: 1.1em;
 }
+
+.suggestions {
+	padding-top: 15px;
+}
+
+.show-sugg-vid {
+	text-align: center;
+	border: 1px solid #eeeeef;
+	background-color: #eeeeef;
+	border-radius: 2px;
+}
+
+/***********Profile pics*********/
+
+.pic1 {
+	background-image: url('../images/cat.jpg');
+}
+.pic2 {
+	background-image: url('../images/puma.jpg');
+}
+.pic3 {
+	background-image: url('../images/duck.jpg');
+}
+.pic4 {
+	background-image: url('../images/gorilla.jpg');
+}
+.pic5 {
+	background-image: url('../images/delorean.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
