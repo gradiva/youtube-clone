@@ -178,11 +178,16 @@ header .logo {
 
 /********************* Video info data ***************************/
 
-h2 {
+h1 {
 	font-size: 1.4em;
 	padding-top: 10px;
+	font-weight: normal;
 }
 
+.video-info-container {
+	display: flex;
+	flex-direction: column;
+}
 
 .video-data {
 	display: flex;
