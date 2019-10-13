@@ -9,7 +9,9 @@ This project is about building a YouTube clone (only appearance) based on HTML a
 
 ## Notes
 
-The search box needs to be fixed, it looks ugly. 
+The search box needs to be fixed, it looks unfinished. 
+
+I learned about how to integrate a video and got more comfortable using flexbox.
 
 ## View in browser
 
